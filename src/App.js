@@ -5,12 +5,16 @@ import {Greet} from "./components/FunctionalComponent";
 import Welcome from "./components/ClassComponent";
 import Hi from "./components/PropsInFunctionalComponents";
 import Howdy from "./components/PropsInClassComponents";
-import Message from "./components/State(a)";
-import Counter from "./components/State(b)";
+import Message from "./components/StateFirstPart";
+import Counter from "./components/StateSecondPart";
 import Destructuring from "./components/DestructuringInFunc";
 import DestructuringInClass from "./components/DestructuringInClass";
 import FunctionClick from "./components/FunctionEventHandling";
 import ClassClick from "./components/ClassEventHandling";
+import EventBind from "./components/EventBind";
+import ParentComponent from "./components/MethodsAsProps/ParentComponent";
+import ConditionalRendering from "./components/ConditionalRendering";
+import ListRendering from "./components/ListRendering";
 
 function App() {
   return (
@@ -52,6 +56,19 @@ function App() {
 
       {/* Event handling in class components */}
       <ClassClick/>
+
+      {/* Binding events in react  */}
+      <EventBind/>
+
+      {/* Methods as props */}
+      <ParentComponent/>
+
+      {/* Conditional Rendering */}
+      <ConditionalRendering/>
+
+      {/* List Rendering */}
+      <hr/>
+      <ListRendering/>
     </div>
   );
 }

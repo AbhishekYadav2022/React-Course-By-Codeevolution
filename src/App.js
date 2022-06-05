@@ -15,10 +15,15 @@ import EventBind from "./components/EventBind";
 import ParentComponent from "./components/MethodsAsProps/ParentComponent";
 import ConditionalRendering from "./components/ConditionalRendering";
 import ListRendering from "./components/ListRendering";
+import Styling from "./components/Styling";
 
 function App() {
   return (
     <div className="App">
+
+      {/* Styling  */}
+      <Styling/>
+
       <Greet/>
       <Welcome/>
 
@@ -69,6 +74,8 @@ function App() {
       {/* List Rendering */}
       <hr/>
       <ListRendering/>
+
+      {/* Styling */}
     </div>
   );
 }

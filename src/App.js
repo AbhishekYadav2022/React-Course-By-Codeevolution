@@ -23,11 +23,20 @@ import HookCounterTwo from "./hook/components/HookCounterTwo";
 import HookCounterThree from "./hook/components/HookCounterThree";
 import HookCounterFour from "./hook/components/HookCounterFour";
 import UseEffectHookCounterOne from "./hook/components/UseEffectHookCounterOne";
+import HookMouse from "./hook/components/HookMouse";
+import MouseContainer from "./hook/components/MouseContainer";
+import IntervalHookCounter from "./hook/components/IntervalHookCounter";
+import DataFetching from "./hook/components/DataFetching";
 
 function App() {
   return (
     <div className="App">
       {/* React Hook  */}
+      {/* Fetching Data Part1  */}
+      <DataFetching/>
+      <IntervalHookCounter/>
+      <MouseContainer/>
+      {/* <HookMouse/> */}
       <UseEffectHookCounterOne/>
       <HookCounterFour/>
       <HookCounterThree/>

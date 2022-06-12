@@ -16,10 +16,27 @@ import ParentComponent from "./components/MethodsAsProps/ParentComponent";
 import ConditionalRendering from "./components/ConditionalRendering";
 import ListRendering from "./components/ListRendering";
 import Styling from "./components/Styling";
+import PureComp from "./components/PureComponent/PureComp";
+import ParentComp from "./components/PureComponent/ParentComp";
+import HookCounter from "./hook/components/HookCounter";
+import HookCounterTwo from "./hook/components/HookCounterTwo";
+import HookCounterThree from "./hook/components/HookCounterThree";
+import HookCounterFour from "./hook/components/HookCounterFour";
+import UseEffectHookCounterOne from "./hook/components/UseEffectHookCounterOne";
 
 function App() {
   return (
     <div className="App">
+      {/* React Hook  */}
+      <UseEffectHookCounterOne/>
+      <HookCounterFour/>
+      <HookCounterThree/>
+      <HookCounterTwo/>
+      <HookCounter/>
+
+    
+      {/* Pure Component  */}
+      {/* <ParentComp/> */}
 
       {/* Styling  */}
       <Styling/>
